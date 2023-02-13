@@ -183,7 +183,7 @@ legend.onAdd = function() {
         + colors[i] 
         + "'></i> " 
         + intervals
-        +(intervals[i + 1] ? "km &ndash km;" + intervals[i + 1] + "km<br>" : "+");
+        +(intervals[i + 1] ? "&ndash;" + intervals[i + 1] + "<br>" : "+");
     }
     return div;
 };
